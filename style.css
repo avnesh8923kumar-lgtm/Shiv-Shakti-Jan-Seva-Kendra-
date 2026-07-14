@@ -1,0 +1,89 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,sans-serif;
+}
+
+body{
+  background:#f4f7fb;
+  color:#333;
+}
+
+.header{
+  background:linear-gradient(135deg,#0d47a1,#1976d2);
+  color:#fff;
+  text-align:center;
+  padding:30px 20px;
+}
+
+.logo{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  background:#fff;
+  padding:8px;
+}
+
+.header h1{
+  margin:15px 0 5px;
+}
+
+.call-btn,.whatsapp-btn{
+  display:inline-block;
+  margin:10px 5px;
+  padding:12px 20px;
+  text-decoration:none;
+  color:#fff;
+  border-radius:8px;
+}
+
+.call-btn{
+  background:#ff9800;
+}
+
+.whatsapp-btn{
+  background:#25D366;
+}
+
+.hero{
+  text-align:center;
+  padding:40px 20px;
+  background:#fff;
+}
+
+section{
+  padding:30px 20px;
+}
+
+section h2{
+  text-align:center;
+  color:#0d47a1;
+  margin-bottom:20px;
+}
+
+.service-box{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:15px;
+}
+
+.service-box div{
+  background:#fff;
+  padding:15px;
+  border-radius:10px;
+  text-align:center;
+  box-shadow:0 2px 8px rgba(0,0,0,.1);
+  transition:.3s;
+}
+
+.service-box div:hover{
+  transform:translateY(-5px);
+}
+
+footer{
+  background:#0d47a1;
+  color:#fff;
+  text-align:center;
+  padding:20px;
+}
